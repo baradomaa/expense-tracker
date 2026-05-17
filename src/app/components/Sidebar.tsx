@@ -57,14 +57,16 @@ const Sidebar = () => {
                         );
                     })}
                 </nav>
-            </div>
 
-            <div style={{padding: '16px',margin: '4px', backgroundColor: '#E8F5F3', borderRadius: '15px', width:'100%'}}>
-                <p style={{fontSize: '12px', fontWeight: '700', color: '#0d4d4d'}}>BUDGET LIMIT</p>
-                <div style={{backgroundColor: '#a8cec1', borderRadius: '999px', height: '6px', marginTop: '8px'}}>
-                    <div style={{backgroundColor: '#0d4d4d', borderRadius: '999px', height: '6px', width: '75%'}}></div>
-                </div>
-                <p style={{fontSize: '11px', color: '#0d4d4d', marginTop: '8px'}}>75% of monthly limit used</p>
+                <div style={{display:'flex', alignItems:'center', gap:'0px', paddingLeft:'20px', paddingTop:'24px', cursor:'pointer'}}>
+    <div style={{width:'36px', height:'36px', borderRadius:'50%', backgroundColor:'#0d4d4d', display:'flex', alignItems:'center', justifyContent:'center'}}>
+        <p style={{color:'white', fontWeight:'bold', fontSize:'14px', margin:'0px'}}>A</p>
+    </div>
+    <div>
+        <p style={{fontSize:'14px', fontWeight:'600', color:'#111827'}}>Alex</p>
+        <p style={{fontSize:'12px', color:'#9ca3af'}}>View Profile</p>
+    </div>
+</div>
             </div>
         </aside>
     );
